@@ -48,10 +48,10 @@ h3 {
     margin: 15px 25px;
     }
 
-  .col-md-6 {
+/*  .col-md-6 {
     background-color: #fff;
     margin: 15px 25px;
-  }
+  }*/
 
 
 .auth-image {
@@ -64,6 +64,11 @@ h3 {
 }
 
 /*Social*/
+
+#sidebar {
+  padding: 10px 20px;
+
+}
 
 .social {
   width: 62px;
@@ -115,6 +120,40 @@ h3 {
 col-md-5 {
   background: #fff;
   border: 2px solid black;
+}
+
+#portfolio-heading {
+    border-bottom: 3px solid grey;
+    padding-bottom: 15px;
+}
+
+#portfolio-box {
+  background: #fff;
+  margin: 15px 20px;
+}
+
+#sushi {
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+}
+
+#ball {
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+}
+
+#philosophy {
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+}
+
+#dog {
+  width: 200px;
+  height: 180px;
+  padding: 10px;
 }
 
 /*Contact*/
