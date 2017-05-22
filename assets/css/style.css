@@ -39,8 +39,20 @@ h3 {
 
   .col-md-8	{
   	background-color: #fff;
-  	padding: 15px 25px 20px 25px;
+  	margin: 15px 25px;
+    }
+
+  .col-md-7 {
+    background-color: #fff;
+    padding: 15px 25px 20px 25px;
+    margin: 15px 25px;
+    }
+
+  .col-md-6 {
+    background-color: #fff;
+    margin: 15px 25px;
   }
+
 
 .auth-image {
   float: left;
@@ -95,6 +107,16 @@ h3 {
   background: #4aaaa5;
   border-bottom: 0;
 }
+
+.imgwrapper {
+   width: 80%;
+}
+
+col-md-5 {
+  background: #fff;
+  border: 2px solid black;
+}
+
 /*Contact*/
 
 button [btn-primary btn-lg] {
@@ -121,3 +143,7 @@ footer {
   background: #666;
   border-top: 8px solid #4aaaa5;
 }
+
+/*Media Queries*/
+
+@media screen and *(max-width: )
